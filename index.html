@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="This is Nelakhe Noplatana's web development portfolio.">
+    <meta name="author" content="Nelakhe Noplatana">
+    <title>Nelakhe Noplatana Portfolio</title>
+    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary border-bottom bg-dark" data-bs-theme="dark">
+      <div class="container-fluid bg-success-bg-subtle bs-dark-text-emphasis data-bs-theme">
+        <a class="navbar-brand" href="#"><img class="rounded d-inline-block" src="images/logo.jpeg.png" alt="logo" width="40" height="23"><span class="text-danger">FRONTEND DEVELOPER</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-50%" id="navbarNav">
+          <ul class="navbar-nav"> 
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#aboutus"><strong>ABOUT me</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"a> <strong>PROJECTS</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume"><strong>RESUME</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footerr"><strong>FOOTER</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div  id="container2" class="container-fluid text-center  expand-sm">
+      <section id="aboutus"></section>
+       <h1 class="muted-text text-success h1 p-50px" id="aboutMe"><em>ABOUT ME</em></h1>
+        <p class="h4"><lead> i am Nelakhe Noplatana.  i somehow fallen in<br>
+          love with the tech industry through youtube<br>
+          and started searching more about it until i<br>
+          found the term "software developer", after <br>
+          that i was convinced that it was what i was<br>
+          looking for all the time and i didnot<br>
+          hesitate to jump on to. it has been 8 months<br>
+          since i started with software development.<br>
+          i have been working tireless by putting atleast<br>
+          10 hours a day in dedication to it.  Thr-<br>
+          oughout my learning journey of 8 months i<br>
+          have gained proficicient knowledge in the<br>
+          following technologies:</lead>
+           <div id="hidden">
+             <span>
+               <img src="images/css.jpeg.png" alt="css image">
+             </span>
+             <span>
+               <img src="images/html.jpeg.png" alt="html image">
+             </span>
+             <span>
+               <img src="images/javascript.jpeg" alt="javascript image">
+             </span>
+             <span>
+               <img src="images/bootstrap5.jpeg.png" alt="bootstrap image">
+             </span>
+             <span>
+              <img src="images/React.ipeg.jpeg" alt="react image">
+             </span>
+             <span>
+              <img src="images/github.jpeg" alt="github image">
+             </span>
+            </div>
+            <div id="view">
+              <button id="toggleButton" onclick="view()">HIDE TECHNOLOGIES</button>
+           </div>
+         </p>
+      </section>
+    </div>
+  <div id="projects" class="container-fluid  expand-sm">
+     <div id="calculator" class="container expand-sm">
+      <span class="block" >
+       <h1 style="color: brown;"><u style="color: red;">PROJECTS</u></h1>
+       <h2>Calculator coding</h2>
+       <p id="bigger">
+        I have built this calculator to showscase<br>
+        my strength of JavaScript. I have used the<br>
+        Onclick listening Event, i further added<br>
+        the append method to it. i have used the <br>
+        Append to numbers and the operators. It took<br>
+        me about  3 days to complete it and it assi-<br>
+        sted me to learn more about methods. click <br>
+        on this <a href="calculator.html">calculator</a> and<br>
+         check it.
+       </p>
+      </span>
+     </div>
+      <div id="cardy" class="card sm-expand" style="width: 18rem;">
+        <img src="images/ToDo.png" class="card-img-top" alt="To Do List">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Here i have built a To-Do List , i was trying to explore more on JavaScript methods 
+            like add(), remove() and is been a mind blowing experience working on it. this took me less than a day.
+            you can click on "To-Do site" below.
+            
+          </p>
+          <a href="./ToDoList.html" class="btn btn-primary"> To-Do site</a>
+        </div>
+      </div>
+     </div>
+
+      
+    </div>
+  </div>
+  <div class="container-fluid expand-sm" id="resume">
+    <div id="btn-downloa">
+      <H1>RESUMe</H1>
+      <a href="RESUME.pdf.pdf" class="download-button">Download File</a>
+    </div>
+  </div>
+  <div class="container-fluid expand-sm">
+    <footer id="footerr">
+      <p>&copy; 2023 Nelakhe Portfolio. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js">
+
+  </script>
+  <script src="nelakhe.js">
+  </script>
+  </body>
+</html>
